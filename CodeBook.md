@@ -3,6 +3,8 @@ Codebook
 
 Data has been sourced from the [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
 
+Input
+-----
 UCI HAR Dataset is split into training and test data - each folder contains a set of inertial signals as well as their resulting calculated measures used in this exercise:
 * `subject_test.txt` contains the subject (1-30) for each measurement
 * `X_test.txt` contains the measures of each observation (i.e. each subject/activity pair)
@@ -12,6 +14,8 @@ Equally for the training data (`X_train.txt`, `y_train.txt` etc.)
 
 Activity labels are specified in the root folder in the file `activity_labels.txt` and variables for the "x data" is specified in the `features.txt` file.
 
+Output
+------
 The data is transformed in the following way by the R script:
 * Only measures pertaining to the mean or standard deviation is extracted.
 * Variable names are transformed to an unambiguous form.
